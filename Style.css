@@ -1,0 +1,36 @@
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: #1D1F20;
+
+}
+.banner-title{
+    font-size: 7em;
+    font-family: Arial;
+    background-image: url("Images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+p
+{
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: Calibri;
+}
+table
+{
+    margin: auto;
+
+}
+body
+{
+        background-color: #1D1F20;
+    color:white;
+}
