@@ -1,36 +1,57 @@
-.banner{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
-    background-color: #1D1F20;
-
-}
-.banner-title{
-    font-size: 7em;
-    font-family: Arial;
-    background-image: url("Images/background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-p
-{
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
     text-align: center;
-    padding-bottom: 50px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Calibri Light", sans-serif;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 75px;
     font-family: Calibri;
 }
-table
-{
-    margin: auto;
+h2{
+    color: wheat;
+    text-align: center;
+    font-family: Cambria;
 
 }
-body
-{
+p {
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: Calibri, serif;
+    font-size: 1.2em;
+}
+table {
+    margin: auto;
+    border-spacing: 30px;
+
+}
+body {
         background-color: #1D1F20;
-    color:white;
+        color: darkgrey;
 }
