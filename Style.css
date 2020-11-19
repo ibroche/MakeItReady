@@ -32,8 +32,9 @@ li a:hover:not(.active) {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 400px;
+	height: 150px;
 	background-color: #1D1F20;
+    	padding-top: 50px;
 }
 .banner-title{
 	font-size:7em;
