@@ -27,12 +27,23 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 
-
-h1{
-    color: white;
-    text-align: center;
-    font-size: 75px;
-    font-family: Calibri;
+.banner{
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	background-color: #1D1F20;
+}
+.banner-title{
+	font-size:7em;
+	font-family:arial;
+	background-image:url('background.png');
+	background-size:cover;
+	background-position:center;
+	background-clip:text;
+	-webkit-background-clip:text;
+	color:transparent;
 }
 h2{
     color: wheat;
