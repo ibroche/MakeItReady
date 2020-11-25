@@ -73,7 +73,9 @@ body {
         background-color: #1D1F20;
         color: darkgrey;
 }
-
+footer{
+    text-align: center;
+}
 
 .form_container{
     text-align: center;
