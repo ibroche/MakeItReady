@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css" />
+    <title>MakeItReady</title>
+</head>
+<body>
+    <!--Fenêtres de navigation-->
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="current">Page de Téléchargements </a></li>
+            <li><a href="form.html">Propositions d'ajouts </a></li>
+        </ul>
+    </nav>
+</header>
+
+<!--Titre principal-->
+<div class="banner">
+    <h1 class="banner-title">MakeItReady!</h1>
+</div>
+<!--Forms-->
+<div class = "form_container">
+    <p>Une proposition à nous faire ? N'hésite pas à nous en faire part grâce au formulaire ci-dessous !</p>
+    <form id = "form">
+      <input type = "text" class = "in" placeholder = "Nom et prénom"><br>
+      <input type = "e-mail" class = "in" placeholder = "Adresse e-mail"><br>
+      <input type = "text" class = "in" placeholder = "Nom de l'application"><br>
+      <textarea class = "in" id="desc" name="*desc" rows="5" cols="33" placeholder="Pourquoi cette application?"></textarea><br>
+    
+    <div>
+      <b>Sous quel OS ?</b>
+    </div>
+        <br>
+        <div class="chkbox">
+            <input type="checkbox" id="Windows" name="Windows">
+            <label for="Windows">Windows</label>
+            
+            <input type="checkbox" id="Android" name="Android">
+            <label for="Android">Android</label>
+            
+            <input type="checkbox" id="iOS" name="iOS">
+            <label for="iOS">iOS</label>
+           
+        </div><br>
+
+      <button type = "submit" id = "sub">Envoyer</button>
+    </form>
+  </div>
+</html>
